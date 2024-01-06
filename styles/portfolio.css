@@ -1,20 +1,22 @@
 /* common shared style */
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* nav related style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -25,91 +27,197 @@ nav{
     padding: 18px 35px;
 }
 
-.section-tittle{
-    color:#181818;
+.section-tittle {
+    color: #181818;
     text-align: center;
-    font-size:35px;
-    font-weight:700;
-    
-}
-.section-descripton{
-    color:  #757575;
-text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
 }
-    
 
-.nav-tittle{
+.section-descripton {
+    color: #757575;
+    text-align: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.nav-tittle {
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
 
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related style */
-.header{
+.header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0 211px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner.profile-picture{
+
+.banner.profile-picture {
     width: 584px;
 
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
-.banner-tittle{
+
+.banner-tittle {
     font-size: 85px;
     font-style: normal;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-content{
+
+.banner-content {
     width: 580px;
 }
-/* main section styles ,About section style */
 
-.about{
-    padding: 130px ;
+/* main section styles ,About section style */
+main section {
+    margin-top: 130px;
+}
+
+.about {
+    padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
-    
+
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-tittle {
+    margin-bottom: 0px;
+}
+
+
+
+#what-i-do-des {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+
+    text-align: justify;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: var(--Dark-03, #757575);
+}
+
+.resume-colum-tittle {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.resume-conteiner{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-des{
+    color:  #757575;
+}
+.resume-item-institute{
+    color:  #757575;
+    margin-bottom:20px ;
+    margin-bottom: 0;
+}
+.resume-item-tittle{
+    color:  #474747;
+    margin-bottom: 10px;
+}
+.resume-conteiner{
+    margin: 30px;
+}
+.download-CV{
+    text-align: center;
+
+}
+footer{
+    display:flex ;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.social-links a{
+    margin-right: 25px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact input[type='text'],.contact input[type='email'],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:  #757575;
+    font-size: 16px;
+    border-radius: 5px;
+    background:  #FFF;
+    border: 0;
+    width: 100%;
 }
